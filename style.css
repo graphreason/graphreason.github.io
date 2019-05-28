@@ -107,21 +107,28 @@ blockquote blockquote blockquote blockquote {
   flex-grow: 0;
   display: -webkit-flex;
   display: flex;
-  -webkit-align-items: flex-end;
+  -webkit-align-items: flex-start;
   -webkit-flex-wrap: wrap;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-start;
   font-size: 1.2em;
   list-style-type: none;
   margin: 0;
   margin-top: 10px;
   padding: 0;
+  margin-left: 10px;
 }
 .site-navi-items li {
-  padding-left: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px #eee solid;
   white-space: nowrap;
+  background: #fff;
+}
+.site-navi-items a {
+  color: #034f84;
 }
 .site-header-bottom {
   margin-top: 0;
