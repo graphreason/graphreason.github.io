@@ -585,6 +585,43 @@ blockquote blockquote blockquote blockquote {
   text-align: center;
 }
 
+.schedule-table {
+    border-top: solid 1px #BBBBBB;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 90%;
+    margin-top: 15px;
+    width: 100%;
+}
+.schedule-table tbody td {
+    border-bottom: solid 1px #BBBBBB;
+    padding: 5px;
+}
+
+.schedule-table .break {
+  background-color: #F8F8F8;
+}
+
+.paper {
+  font-weight: bold;
+}
+
+.oral {
+  font-weight: bold;
+  color: #990000;
+}
+
+.spotlight {
+  color: #990000;
+}
+
+ol.accepted-papers li {
+  padding-bottom: 5px;
+  border-bottom: 1px #DDDDDD solid;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  font-size: 90%;
+}
 /* Mobile */
 @media screen and (max-width: 768px) {
   .site-header, .site-header-bottom, .main, .breadcrumb, .site-footer {
@@ -628,6 +665,7 @@ blockquote blockquote blockquote blockquote {
   .site-footer .copyright {
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 5px
     text-align: left;
   }
   .site-footer .powerdby {
