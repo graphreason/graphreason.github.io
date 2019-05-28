@@ -116,13 +116,13 @@ blockquote blockquote blockquote blockquote {
   font-size: 1.2em;
   list-style-type: none;
   margin: 0;
-  margin-top: 10px;
   padding: 0;
   margin-left: 10px;
 }
 .site-navi-items li {
   padding: 10px;
   margin-right: 10px;
+  margin-top: 10px;
   border: 2px #eee solid;
   white-space: nowrap;
   background: #fff;
