@@ -54,6 +54,11 @@ blockquote blockquote blockquote blockquote {
   border-left-color: lightgray;
 }
 
+.affiliation {
+  color: #999999;
+  font-style: italic;
+}
+
 /* Site header */
 .site-header {
   max-width: 900px;
