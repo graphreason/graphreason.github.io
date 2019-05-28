@@ -608,6 +608,28 @@ blockquote blockquote blockquote blockquote {
   .terms, .archives {
     padding: 0;
   }
+  /* Site footer */
+  .site-footer {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    display: block;
+  }
+
+  /* Footer */
+  .site-footer .copyright {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  .site-footer .powerdby {
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 10px;
+  }
 }
 
 @media print {
