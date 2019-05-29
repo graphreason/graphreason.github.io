@@ -617,9 +617,9 @@ blockquote blockquote blockquote blockquote {
 }
 
 ol.accepted-papers li {
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   border-bottom: 1px #DDDDDD solid;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   margin-right: 10px;
   font-size: 90%;
 }
