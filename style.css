@@ -592,6 +592,7 @@ blockquote blockquote blockquote blockquote {
     font-size: 90%;
     margin-top: 15px;
     width: 100%;
+    margin-right: 10px;
 }
 .schedule-table tbody td {
     border-bottom: solid 1px #BBBBBB;
